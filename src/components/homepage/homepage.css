@@ -1,0 +1,71 @@
+/* homepage.css */
+
+body {
+  margin: 0;
+  padding: 0;
+}
+
+/* General styling for the homepage */
+.homepage {
+  width: 100%;
+  height: 100%;
+}
+
+/* Styling for the background */
+.background {
+  background-color: white;
+  /* Your existing background styles */
+}
+
+/* Styling for the recommendations section */
+.recommendations-section {
+  padding: 20px;
+}
+
+/* Styling for the products section */
+.products-section {
+  margin-top: 20px;
+}
+
+.products-heading {
+  font-size: 24px;
+  margin-bottom: 10px;
+}
+
+.products-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
+
+.product {
+  width: 30%; /* Adjust the width as needed */
+  margin-bottom: 20px;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  padding: 10px;
+  background-color: rgb(248, 248, 252);
+  overflow: hidden; /* Ensure content does not overflow */
+}
+
+.product img {
+  width: 99%; /* Ensure the image fits within the container */
+  height: 70%;
+  border-radius: 4px;
+}
+
+.product h3 {
+  font-size: 18px;
+  margin-top: 10px;
+  overflow: hidden; /* Ensure text does not overflow */
+  text-overflow: ellipsis; /* Display ellipsis if text overflows */
+  white-space: nowrap; /* Prevent wrapping */
+}
+
+.product p {
+  font-size: 14px;
+  margin-top: 5px;
+  overflow: hidden; /* Ensure text does not overflow */
+  text-overflow: ellipsis; /* Display ellipsis if text overflows */
+  white-space: nowrap; /* Prevent wrapping */
+}

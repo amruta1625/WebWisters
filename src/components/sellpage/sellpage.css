@@ -1,0 +1,77 @@
+
+/* SellPage.css */
+
+html, body, .container {
+  height: 100%;
+  margin: 0;
+  padding: 0;
+}
+
+.sellpage {
+  background-image: linear-gradient( 86.3deg,  rgba(0,119,182,1) 3.6%, rgba(8,24,68,1) 87.6% );
+  height: 100%; /* Set height to 100% of the viewport height */
+}
+
+.sell-container {
+  max-width: 800px; /* Adjust the max-width as needed */
+  margin: 20px auto;
+  opacity: 1;
+  padding: 30px; /* Adjust the padding as needed */
+  border: 1px solid #ccc;
+  border-radius: 10px; /* Adjust the border-radius as needed */
+  background-color: #fff;
+  overflow-y: auto;
+  height: 80%; /* Set height to 80% of containing block's height */
+ 
+}
+
+
+.sell-section {
+  margin-bottom: 20px;
+}
+
+h1 {
+  text-align: center; /* Center the heading */
+  margin-bottom: 20px; /* Add some margin at the bottom for spacing */
+} 
+h2 {
+  font-size: 18px;
+  margin-bottom: 10px;
+}
+
+.upload-photo {
+  display: flex;
+  flex-direction: column;
+}
+
+.upload-photo input {
+  display: none;
+}
+
+.upload-photo label {
+  cursor: pointer;
+  background-color: #15b0f8;
+  color: #fff;
+  padding: 15px; /* Adjust the padding as needed */
+  text-align: center;
+  border-radius: 5px; /* Adjust the border-radius as needed */
+}
+
+textarea,
+input[type="text"],
+select {
+  width: 100%;
+  padding: 15px; /* Adjust the padding as needed */
+  margin-top: 10px; /* Adjust the margin as needed */
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+.submit-button {
+  background-color: #15b0f8;
+  color: #fff;
+  padding: 15px; /* Adjust the padding as needed */
+  cursor: pointer;
+  border: none;
+  border-radius: 5px;
+}

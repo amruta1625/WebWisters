@@ -1,0 +1,130 @@
+body, h1, h4, p, div {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.login {
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+}
+
+.backgroundimg {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  overflow: hidden;
+  z-index: 0;
+}
+
+.img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  opacity: 1; /* Adjust as needed for transparency */
+}
+
+.logoimg {
+  position: absolute;
+  top: 20px;
+  left: 20px;
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  color: #ffffff;
+  z-index: 1; /* Place on top of the background image */
+}
+
+.logo {
+  width: 50px;
+  height: auto;
+}
+
+.logoname {
+  /* font-family: Arial, Helvetica, sans-serif;
+  font-size: 24px; */
+  font-family: cursive;
+  color:#8f6842;
+  font-size: 35px;
+  margin-top: 10px;
+}
+
+.logincontent {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  z-index: 1; /* Place on top of the background image */
+  background-color: rgba(216, 214, 214, 0.8); /* Semi-transparent white background */
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+  width: 300px; /* Adjust as needed */
+  text-align: center;
+}
+
+h1 {
+  color: #333333;
+  font-size: 30px;
+  margin-bottom: 10px;
+}
+
+h4 {
+  color: #333333;
+  font-size: 14px;
+}
+
+.form-group {
+  margin-bottom: 20px;
+  text-align: left;
+}
+
+.form-control {
+  width: 100%;
+  padding: 10px;
+  border: 1px solid #dddddd;
+  border-radius: 5px;
+  margin-top: 5px;
+}
+
+.error {
+  border-color: #ff0000;
+}
+
+.error-message {
+  color: #ff0000;
+  font-size: 12px;
+  margin-top: 5px;
+}
+
+.submit {
+  background-color: #38b6ff;
+  color: #ffffff;
+  border: none;
+  border-radius: 5px;
+  padding: 10px;
+  cursor: pointer;
+}
+
+.submit:hover {
+  background-color: #268cff;
+}
+
+p {
+  font-size: 14px;
+  margin-top: 10px;
+}
+
+a {
+  color: #38b6ff;
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline;
+}

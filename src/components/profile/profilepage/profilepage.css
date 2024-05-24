@@ -1,0 +1,103 @@
+
+
+
+
+.profile-containers {
+  
+  max-width: 55%;
+  padding: 10%;
+  margin: 10px auto; /* Center the container horizontally */
+  box-sizing: content-box; /* Override the box-sizing property for the container */
+
+}
+
+
+
+
+.text {
+  width:40%;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  margin-bottom: 20px;
+  text-align: left;
+}
+
+.text span {
+  margin-bottom: 10px;
+}
+
+
+.profile-section {
+  display: grid;
+  grid-template-columns: 1fr; /* Set the grid template columns to have 1/4 and 3/4 of the width */
+  grid-column-gap: 20px; /* Adjust spacing between columns */
+  width: 100%;
+}
+
+.matter {
+  background-color: #f7f4f2; /* Set background color to white */
+  padding: 30px; /* Increase padding to increase box size */
+  width:100%;
+  height: 120%;
+  border-radius: 30px;
+}
+
+.xyz {
+  display: flex;
+  align-items: center;
+}
+
+.user-image {
+  width: 60%; /* Set the width of the image */
+  height: auto; /* Allow the image to adjust its height */
+  max-height: 60%;
+}
+
+.text {
+  margin-bottom: 20px; /* Adjust spacing between profile details */
+  text-align:left;
+  margin-right: 20%;
+}
+
+.ar {
+  display: block;
+  width: 120px; /* Adjust the width of labels */
+  margin-bottom: 10px; /* Add spacing below each label */
+}
+
+.br {
+  display:grid;
+  margin-bottom: 20px; /* Add spacing below each input field */
+}
+
+.btn {
+  margin-top: 20px; /* Adjust spacing between profile details and buttons */
+  
+}
+
+.btn-container {
+  display: flex;
+  justify-content:center;
+  
+}
+
+.right-align {
+  text-align: right;
+  margin-right: 30%;
+}
+
+
+
+button {
+  padding: 15px 30px;
+  background-color: #007bff;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #0056b3;
+}

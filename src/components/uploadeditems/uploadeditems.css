@@ -1,0 +1,48 @@
+.uploaded-items-container {
+    margin-top: 20px;
+  }
+  
+  .heading {
+    text-align: center;
+    color: white;
+  }
+  
+  .item-list {
+    /* display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
+    gap: 20px; */
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+  }
+  
+  .uploaded-item {
+    width: 30%;
+    margin-bottom: 20px;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    padding: 10px;
+    background-color: #f0eef3;
+    /* border: 1px solid #ccc;
+    padding: 10px;
+    border-radius: 5px; */
+  }
+  
+  .uploaded-item p {
+    margin: 5px 0;
+  }
+  
+  .uploaded-item button {
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    padding: 5px 10px;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-left: 2px;
+  }
+  
+  .uploaded-item button:hover {
+    background-color: #0056b3;
+  }
+  

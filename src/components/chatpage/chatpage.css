@@ -1,0 +1,118 @@
+/* frontend/src/ChatPage.css */
+
+.chat-page-container {
+  display: flex;
+  height: 100vh;
+  font-family: Arial, sans-serif;
+  position: relative; /* Position relative for absolute positioning */
+  background-color: #f0f0f4; /* Set background color */
+}
+
+.chat-page-container .user-list {
+  width: 200px;
+  background-color: #f0f0f0;
+  padding: 20px;
+  border-right: 1px solid #ccc;
+  overflow-y: auto;
+}
+
+.chat-page-container .user-list h2 {
+  margin-bottom: 10px;
+}
+
+.chat-page-container .user-list ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+.chat-page-container .user-list li {
+  cursor: pointer;
+  padding: 10px 0;
+  border-bottom: 1px solid #ddd;
+}
+
+.chat-page-container .user-list li:hover {
+  background-color: #eaeaea;
+}
+
+.chat-page-container .conversation {
+  flex-grow: 1;
+  padding: 20px;
+  overflow-y: auto;
+  display: flex;
+  flex-direction: column;
+  position: relative; /* Position relative for absolute positioning */
+}
+
+.chat-page-container .conversation h2 {
+  margin-bottom: 20px;
+}
+
+.chat-page-container .message-container {
+  display: flex;
+  flex-direction: column;
+  flex-grow: 1;
+}
+
+.chat-page-container .message {
+  max-width: 70%;
+  word-wrap: break-word;
+  padding: 10px;
+  margin-bottom: 10px;
+  border-radius: 10px;
+}
+
+.chat-page-container .sent-message {
+  align-self: flex-start;
+  background-color: #121312;
+}
+
+.chat-page-container .received-message {
+  align-self: flex-end;
+  background-color: #fff;
+}
+
+.chat-page-container .input-container {
+  position: absolute; /* Position absolute for bottom placement */
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  padding: 10px;
+  border-top: 1px solid #ccc;
+  background-color: #fff;
+}
+
+.chat-page-container input[type="text"] {
+  flex: 1;
+  padding: 10px;
+  border: none;
+  border-radius: 20px;
+  background-color: #e6e4e4;
+  outline: none;
+  margin-right: 10px;
+}
+
+.chat-page-container button {
+  padding: 10px 20px;
+  border: none;
+  background-color: #2a8573;
+  color: #fff;
+  border-radius: 20px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+.chat-page-container button:hover {
+  background-color: #0b6e5d;
+}
+
+.center-statement {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  font-size: 24px;
+  color: #552b2b; /* Adjust color as needed */
+}

@@ -1,0 +1,156 @@
+* {
+  padding: 0;
+  margin: 0;
+  text-decoration: none;
+  list-style: none;
+  box-sizing: border-box;
+}
+
+nav {
+  margin-top: 3vh;
+  margin-left: 3vw;
+  margin-right: 3vw;
+  background: #98a2aa;
+  height: 80px;
+  width: 94vw;
+  border-radius: 80px;
+  position: relative;
+}
+
+.logopic {
+  margin-left: 1vw;
+  margin-right: 0;
+  width: 120px;
+  height: 10vh;
+  background-size: contain;
+  cursor: pointer;
+}
+
+label.logo {
+  color: white;
+  font-size: 35px;
+  padding: 0 10px;
+  font-weight: bold;
+  font-family: cursive;
+  position: relative;
+  bottom: 22px;
+  color: #7c4b0c;
+  cursor: pointer;
+}
+
+nav ul {
+  float: right;
+  margin-right: 20px;
+}
+
+nav ul li {
+  display: inline-block;
+  line-height: 80px;
+  margin: 0 5px;
+}
+
+nav ul li a {
+  color: white;
+  font-size: 17px;
+  padding: 7px 13px;
+  border-radius: 20px;
+  text-transform: uppercase;
+  font-weight: bold;
+}
+
+a.active,
+a:hover {
+  background: white;
+  color: black;
+  transition: 0.5s;
+}
+
+.checkbtn {
+  font-size: 30px;
+  color: white;
+  float: right;
+  line-height: 80px;
+  margin-right: 40px;
+  cursor: pointer;
+  display: none;
+}
+
+#check {
+  display: none;
+}
+
+.dropdown-menu-navbar {
+  position: absolute;
+  top: 100%;
+  right: 0;
+  background-color: #fff;
+  box-shadow: 0 4px 8px rgba(246, 243, 243, 0.1);
+  border-radius: 4px;
+  z-index: 1000;
+  display: none;
+  width: 50%; /* Decrease width by 50% */
+  height: 50%; /* Decrease height by 50% */
+}
+
+.dropdown-menu-navbar ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.dropdown-menu-navbar li {
+  padding: 10px 20px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+.dropdown-menu-navbar li:hover {
+  background-color: #f7f1f1;
+}
+
+@media (max-width: 1136px) {
+  label.logo {
+    font-size: 30px;
+    padding-left: 50px;
+  }
+  nav ul li a {
+    font-size: 16px;
+  }
+}
+
+@media (max-width: 1050px) {
+  .checkbtn {
+    display: block;
+  }
+  nav ul {
+    display: none;
+    flex-direction: column;
+    position: fixed;
+    width: 30%;
+    height: 100vh;
+    background: #141925;
+    top: 80px;
+    right: 0;
+    text-align: center;
+    transition: all 0.5s;
+  }
+  nav ul.active {
+    display: flex;
+  }
+  nav ul li {
+    display: block;
+    margin: 50px 0;
+    line-height: 30px;
+  }
+  nav ul li a {
+    font-size: 20px;
+  }
+  a:hover,
+  a.active {
+    background: none;
+    color: #0082e6;
+  }
+  #check:checked ~ nav ul {
+    left: 100%;
+  }
+}

@@ -1,0 +1,91 @@
+/* Basic styles */
+body {
+  font-family: sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+.product-view-page {
+  display: flex;
+  flex-wrap: wrap;
+  max-width: 1000px;
+  margin: 50px auto;
+}
+
+/* Product details section */
+.product-details {
+  flex: 1 0 50%;
+  padding: 20px;
+  text-align: center;
+  background-color: #f5f5f5; /* Light gray background */
+}
+
+.product-details img {
+  width: 100%;
+  max-width: 400px;
+  margin: 0 auto 20px;
+  border-radius: 5px;
+}
+
+.product-details h1 {
+  font-size: 2em;
+  margin-bottom: 10px;
+}
+
+.product-details p {
+  line-height: 1.5;
+  margin-bottom: 15px;
+}
+
+/* Seller details section */
+.seller-details {
+  flex: 1 0 50%;
+  padding: 20px;
+  border-left: 1px solid #ddd;
+  background-color: #f0f0f0; /* Light gray background */
+  text-align: center;
+}
+
+.seller-details h2 {
+  font-size: 1.2em;
+  margin-bottom: 10px;
+}
+
+.seller-details p {
+  margin-bottom: 5px;
+}
+
+/* Actions section */
+.actions {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+  margin-top: 20px;
+}
+
+.actions button {
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.2s ease-in-out;
+}
+
+
+/* Wishlist button styling */
+.actions button:first-child {
+  background-color: #f0f0f0; /* Maintain previous color */
+  color: #333; /* Set button text color */
+}
+
+/* Request button styling */
+.actions button:nth-child(2) {
+  background-color: #ffc107;
+  color: #fff;
+}
+
+/* Chat button styling */
+.actions button:last-child {
+  background-color: #3498db;
+  color: #fff;
+}

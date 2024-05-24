@@ -1,0 +1,48 @@
+/* Style for the OTP container */
+.otp-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+  }
+  
+  /* Style for the OTP box */
+  .otp-box {
+    width: 300px;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    background-color: #fff;
+  }
+  
+  /* Style for headings */
+  h2 {
+    margin-bottom: 20px;
+  }
+  
+  /* Style for input fields */
+  .input-field {
+    margin-bottom: 20px;
+  }
+  
+  /* Style for labels */
+  .label {
+    font-weight: bold;
+  }
+  
+  /* Style for submit button */
+  .submit-btn {
+    padding: 10px 20px;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  /* Style for submit button on hover */
+  .submit-btn:hover {
+    background-color: #0056b3;
+  }
+  
