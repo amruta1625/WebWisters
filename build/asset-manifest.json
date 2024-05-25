@@ -1,0 +1,19 @@
+{
+  "files": {
+    "main.css": "/WebWisters/static/css/main.316ecac7.css",
+    "main.js": "/WebWisters/static/js/main.5518c480.js",
+    "static/js/592.28c825c5.chunk.js": "/WebWisters/static/js/592.28c825c5.chunk.js",
+    "static/media/login.png": "/WebWisters/static/media/login.cab258c667894c06c3b7.png",
+    "static/media/forgotpasswordpage.png": "/WebWisters/static/media/forgotpasswordpage.0076fa7441d4e7a5a154.png",
+    "static/media/createaccount.png": "/WebWisters/static/media/createaccount.1453b59d6713b33f809a.png",
+    "static/media/logotradethrill.svg": "/WebWisters/static/media/logotradethrill.17ebcf89fbc3db21e9a1ec1c17b76eeb.svg",
+    "index.html": "/WebWisters/index.html",
+    "main.316ecac7.css.map": "/WebWisters/static/css/main.316ecac7.css.map",
+    "main.5518c480.js.map": "/WebWisters/static/js/main.5518c480.js.map",
+    "592.28c825c5.chunk.js.map": "/WebWisters/static/js/592.28c825c5.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.316ecac7.css",
+    "static/js/main.5518c480.js"
+  ]
+}
